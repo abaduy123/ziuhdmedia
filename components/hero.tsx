@@ -25,17 +25,14 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
-              Start Your Campaign
-              <ArrowUp className="ml-2 h-5 w-5" />
+            <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3" >
+              <a href="#contact">
+                Start Your Campaign
+                <ArrowUp className="ml-2 h-5 w-5" />
+              </a>
+              
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 bg-transparent"
-            >
-              View Our Work
-            </Button>
+            
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">

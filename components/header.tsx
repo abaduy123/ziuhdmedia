@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Menu, X } from "lucide-react"
+import { Menu, X  } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Header() {
@@ -27,13 +27,17 @@ export function Header() {
             <Link href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">
               About
             </Link>
-            <Link href="#testimonials" className="text-gray-700 hover:text-purple-600 transition-colors">
-              Testimonials
-            </Link>
+            
             <Link href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">
               Contact
             </Link>
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
+            <Button asChild className="bg-purple-600 hover:bg-purple-700 text-white">
+              
+              <a href="#contact">
+                Get Started
+                
+              </a>
+              </Button>
           </nav>
 
           {/* Mobile menu button */}
