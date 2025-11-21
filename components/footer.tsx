@@ -16,18 +16,7 @@ export function Footer() {
               success is our mission.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="bg-gray-800 p-2 rounded-full hover:bg-purple-600 transition-colors">
-                <Instagram className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="bg-gray-800 p-2 rounded-full hover:bg-purple-600 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="bg-gray-800 p-2 rounded-full hover:bg-purple-600 transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="bg-gray-800 p-2 rounded-full hover:bg-purple-600 transition-colors">
-                <Youtube className="h-5 w-5" />
-              </Link>
+             
             </div>
           </div>
 
@@ -42,26 +31,13 @@ export function Footer() {
                   Instagram Marketing
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  TikTok Campaigns
-                </Link>
-              </li>
+              
               <li>
                 <Link href="#" className="hover:text-white transition-colors">
                   YouTube Collaborations
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Twitter Influence
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Analytics & Reporting
-                </Link>
-              </li>
+              
             </ul>
           </div>
 
@@ -76,26 +52,13 @@ export function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Our Team
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Careers
-                </Link>
-              </li>
+              
               <li>
                 <Link href="#contact" className="hover:text-white transition-colors">
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Privacy Policy
-                </Link>
-              </li>
+             
             </ul>
           </div>
         </div>

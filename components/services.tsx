@@ -9,36 +9,15 @@ export function Services() {
       description: "Leverage Instagram influencers to showcase your brand through stories, posts, and reels.",
       features: ["Story campaigns", "Feed posts", "Reels content", "IGTV partnerships"],
     },
-    {
-      icon: TikTok,
-      title: "TikTok Campaigns",
-      description: "Create viral TikTok content with trending creators and hashtag challenges.",
-      features: ["Viral challenges", "Trending content", "Creator partnerships", "Brand takeovers"],
-    },
+    
     {
       icon: Youtube,
       title: "YouTube Collaborations",
       description: "Partner with YouTube creators for long-form content and product integrations.",
       features: ["Sponsored videos", "Product reviews", "Channel partnerships", "Live streams"],
     },
-    {
-      icon: Twitter,
-      title: "Twitter Influence",
-      description: "Amplify your message through Twitter thought leaders and trending conversations.",
-      features: ["Tweet campaigns", "Thread partnerships", "Space hosting", "Trend participation"],
-    },
-    {
-      icon: BarChart3,
-      title: "Analytics & Reporting",
-      description: "Comprehensive tracking and analysis of campaign performance and ROI.",
-      features: ["Real-time metrics", "ROI tracking", "Audience insights", "Performance reports"],
-    },
-    {
-      icon: Target,
-      title: "Strategy & Planning",
-      description: "Custom influencer marketing strategies tailored to your brand goals.",
-      features: ["Campaign strategy", "Influencer matching", "Content planning", "Goal setting"],
-    },
+    
+   
   ]
 
   return (

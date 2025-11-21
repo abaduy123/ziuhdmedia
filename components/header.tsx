@@ -15,7 +15,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/zuhd-logo.png" alt="ZUHD Media" width={500} height={500} className="h-40 w-40 pb-2" />
+              <Image src="/zuhd-logo.png" alt="ZUHD Media" width={500} height={500} className="h-40 w-40 pb-2 ps-2" />
             </Link>
           </div>
 
@@ -34,7 +34,7 @@ export function Header() {
             <Button asChild className="bg-purple-600 hover:bg-purple-700 text-white">
               
               <a href="#contact">
-                Get Started
+                Contact Us
                 
               </a>
               </Button>
