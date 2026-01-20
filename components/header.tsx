@@ -15,7 +15,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/zuhd-logo.png" alt="ZUHD Media" width={500} height={500} className="h-40 w-40 pb-2 ps-2" />
+              <Image src="/zuhd-logo.png" alt="ZUHD Media" width={50} height={50} className="h-10 w-auto pb-2 ps-2" />
             </Link>
           </div>
 
@@ -66,13 +66,7 @@ export function Header() {
               >
                 About
               </Link>
-              <Link
-                href="#testimonials"
-                className="block px-3 py-2 text-gray-700 hover:text-purple-600"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Testimonials
-              </Link>
+              
               <Link
                 href="#contact"
                 className="block px-3 py-2 text-gray-700 hover:text-purple-600"
